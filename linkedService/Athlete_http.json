@@ -1,0 +1,12 @@
+{
+	"name": "Athlete_http",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/venkateshprabhus/Azure-Data-Engineering-Project/main/Tokyo%20Olympics%202021%20Dataset/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
