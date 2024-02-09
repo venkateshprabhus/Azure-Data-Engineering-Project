@@ -2,7 +2,7 @@
 	"name": "EntriesGenderDS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "EntriesGender_sink_LS",
+			"referenceName": "AzureDataLakeStorage2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
