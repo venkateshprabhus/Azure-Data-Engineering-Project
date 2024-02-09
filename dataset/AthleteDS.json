@@ -2,7 +2,7 @@
 	"name": "AthleteDS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Athletes_sink_LS",
+			"referenceName": "AzureDataLakeStorage",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
