@@ -2,7 +2,7 @@
 	"name": "AthleteDS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage2",
+			"referenceName": "Athletes_sink_LS",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Atheletes",
+				"fileName": "Athletes.csv",
 				"folderPath": "Raw-Data",
 				"fileSystem": "tokyo-olympic-data"
 			},
